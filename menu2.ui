@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu2</class>
+ <widget class="QDialog" name="menu2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>755</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>711</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad3"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad4"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad5"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ad6"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_ad">
+        <property name="text">
+         <string>插入</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_de1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_de2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_de3"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_de4"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_de5"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_6"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_de">
+        <property name="text">
+         <string>删除</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>      修改</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>      查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>      插入</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin3"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin4"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin5"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_fin6"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="text">
+         <string>查询</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_sort2">
+        <property name="text">
+         <string>一键排序</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_mer">
+        <property name="text">
+         <string>合并</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha3"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha4"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha5"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cha6"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_cha">
+        <property name="text">
+         <string>修改</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>      删除</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>学号</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>姓名</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>     专业</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>       班级</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>           性别</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>           年龄</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_renew">
+        <property name="text">
+         <string>刷新</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTableWidget" name="tableWidget1"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_return">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

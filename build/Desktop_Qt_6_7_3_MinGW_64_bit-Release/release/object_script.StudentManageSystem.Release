@@ -1,0 +1,10 @@
+release/login.o
+release/main.o
+release/mainwindow.o
+release/menu.o
+release/menu2.o
+release/qrc_logo.o
+release/moc_login.o
+release/moc_mainwindow.o
+release/moc_menu.o
+release/moc_menu2.o
